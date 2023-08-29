@@ -6,6 +6,9 @@ include 'curl.php';
 echo "Your referral code : ";
 $reffcode = trim(fgets(STDIN));
 
+while(true) {
+	register($reffcode);
+}
 
 
 
